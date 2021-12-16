@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    background-color: #68C5DB;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.foto-logo{
+    height: 100px;
+    margin-right: 400px;
+}
+
+.concepto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    margin-right: 350px;
+    margin-left: 350px;
+    color: darkslategray;
+    background-color: whitesmoke;
+    border: solid 2px cornflowerblue;
+}
+
+/**Galeria**/
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-gallery{
+    max-height: 320px;
+    max-width: 430px;
+}
+
+/**Menu**/
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 2px;
+}
+
+.carta1{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+h3{
+    font-family: 'Fuzzy Bubbles', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    align-items: space-between;    
+    border-left-width: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/**Formulario**/
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    margin-right: 300px;
+}
+
+fieldset{
+    width: 700px;
+    height: 300px;
+    background-color: burlywood;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+legend{
+    text-align: center;
+    font-weight: bold;
+}
+
+.personas-hora{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 300;
+}
+        
+.select1{
+    width: 15rem;
+    margin-bottom: 15px;
+}
+
+.tipo-mesa{
+    width: 32.5rem;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 32.5rem;
+    margin-bottom: 15px;
+}
+
+.otros-botones{
+    margin-bottom: 15px;
+}
+
+.lista-espera{
+    margin-bottom: 15px;
+}
+
+/**Blog**/
+
+.blog-container{
+    background-color: sienna;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.blog-art{
+    background-color: blue;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border: solid 3px black;
+}
+
+.blog-title{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: solid 3px;
+    border-radius: 30%;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: darkorchid;
+}
+
+/**Footer**/
+
+footer{
+    margin-left: 200px;
+    margin-right: 200px;  
+    
+}
+
+.button-footer{
+    width: 300px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.siguenos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

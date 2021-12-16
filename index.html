@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alfredo´s</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://images-na.ssl-images-amazon.com/images/I/319GkIeX-xL._SX331_BO1,204,203,200_.jpg"
+        alt="foto-logo"
+        class="foto-logo"
+      />
+
+      <a href="">Home</a>
+      <a href="">Conceptos</a>
+      <a href="#gallery">Fotos</a>
+      <a href="#menu">Menú</a>
+      <a href="#reservas">Reservas</a>
+      <a href="#blog">Blog</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="concepto">
+      <img
+        src="https://www.antiguarestaurante.com/es/media/ee367c51f9/ee367c51f659c9963f83cba87c831516.cms.jpg"
+        alt="foto-restaurante"
+      />
+      <p>
+        El restaurante Alfredo´s es un lugar donde te puedes sentir como en
+        casa, disponemos tanto de cocina tradicional, como de cocina innovadora
+        y de vanguardia, además de nuestra barra de bar si sólo quieres tomar
+        algo.
+      </p>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <img
+        src="https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2012/01/comida-rapida-casera.jpg"
+        alt="foto-res"
+        class="foto-gallery"
+      />
+
+      <img
+        src="https://ichef.bbci.co.uk/news/640/cpsprodpb/134E3/production/_105057097_a226d870-cc5f-4043-9f4b-d452b75cc280.jpg"
+        alt="foto-res"
+        class="foto-gallery"
+      />
+
+      <img
+        src="https://images.ecestaticos.com/8xiPxbzLI7iYARav5MJg4HgSvCg=/0x110:2119x1300/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F0c4%2F28a%2F4f9%2F0c428a4f943da231d1ee97c8732731b1.jpg"
+        alt="foto-res"
+        class="foto-gallery"
+      />
+
+      <img
+        src="https://img.freepik.com/foto-gratis/tabla-cortar-madera-rodeada-platos-pasta-e-ingredientes-mesa_23-2148246798.jpg?size=626&ext=jpg"
+        alt="foto-res"
+        class="foto-gallery"
+      />
+
+      <img
+        src="https://www.empresaactual.com/wp-content/uploads/2020/12/facturacion-sector-restaurantes-e1608739990467.jpg"
+        alt="foto-res"
+        class="foto-gallery"
+      />
+
+      <img
+        src="https://pintxaki.es/images/restaurantes-pintxaki.jpg"
+        alt="foto-res"
+        class="foto-gallery"
+      />
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="carta">
+        <h2 class="carta1">CARTA</h2>
+        <h3 class="carta2">DESAYUNOS CARTA COCKTAILS</h3>
+      </div>
+
+      <div>
+        <img
+          src="https://hosdecora.com/blog/wp-content/uploads/2020/01/carta.png"
+          alt="carta-restaurante"
+        />
+      </div>
+    </section>
+
+    <form action="" autocomplete="off" id="reservas">
+      <fieldset class="fieldset">
+        <legend>RESERVAS</legend>
+
+        <section class="form-container">
+          <div>
+            <div class="personas-hora">
+              <div>
+                <label for="personas">Personas</label>
+                <div>
+                <select
+                  id="personas"
+                  type="text"
+                  name="n_personas"
+                  class="select1"
+                  required
+                >
+                  <option value="1">1 persona</option>
+                  <option value="2">2 personas</option>
+                  <option value="3">3 personas</option>
+                  <option value="4">4 personas</option>
+                  <option value="5">5 personas</option>
+                  <option value="6">6 personas</option>
+                </select>
+              </div>
+
+              </div>
+
+              <div>
+                
+                <label for="hora">Hora</label>
+                <div>
+                <select
+                  id="hora"
+                  type="text"
+                  name="hora_reserva"
+                  class="select1"
+                  required
+                >
+                  <option value="13.30">13.30</option>
+                  <option value="14.00">14.00</option>
+                  <option value="14.30">14.30</option>
+                  <option value="15.00">15.00</option>
+                  <option value="15.30">15.30</option>
+                </select>
+              </div>
+              </div>
+            </div>
+
+            <div>
+              <div>
+              <label for="tipo-mesa">Tipo de mesa</label>
+            </div>
+              
+            <select
+                id="tipo-mesa"
+                type="text"
+                name="mesa-tipo"
+                class="tipo-mesa"
+                required
+              >
+            
+            <div>
+                <option value="cuadrada">Cuadrada</option>
+                <option value="redonda">Redonda</option>
+              </select>
+            </div>
+          </div>
+
+            <button class="otros-botones">Reservar</button>
+
+            <div>
+              <div>
+                <label for="" class="lista-espera"
+                  >Si no encuentra disponibilidad, apúntese a nuestra lista de
+                  espera</label
+                >
+              </div>
+              <div>
+                <button type="submit" class="otros-botones">Lista de espera</button>
+              </div>
+              <div>
+                <button type="submit" class="otros-botones">Solicitud de grupo</button>
+              </div>
+            </div>
+          </div>
+        </section>        
+      </fieldset>
+    </form>
+
+        <section>
+          <div>
+            <div>
+            <h2 class="blog-title" id="blog">Blog</h2>
+            </div>
+            <div class="blog-container">
+            <div class="blog-art">
+              <h3>MENUS ESPECIALES PARA NAVIDAD...</h3>
+            </div>
+            <div class="blog-art">
+              <h3>AÑADIMOS NUEVOS COCTELES A NUESTRA CARTA, VEN A PROBARLOS...</h3>
+            </div>
+            <div class="blog-art">
+              <h3>CELEBRA TU CUMPLEAÑOS CON NOSOTROS...</h3>
+            </div>
+          </div>
+          </div>
+        </section>
+
+        <footer>
+         <div>
+          <h2 class="Síguenos" id="contacto">Siguenos en</h2>
+         </div>
+         <div class="links">
+          <button class="button-footer">FACEBOOK</button>
+          <button class="button-footer">INSTAGRAM</button>
+         </div>
+        </footer>
+    
+  </body>
+</html>
